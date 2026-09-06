@@ -12,7 +12,7 @@ do {
 	cin>>valor;
 	
 	if (valor < 100){
-		cout<<"SEM DESCONTO, valor do produto: R$ "<<valor<<endl<<endl;
+		cout<<"SEM DESCONTO, valor do produto: R$ "<<valor<<endl<<endl; // teste
 	}
 	else if (valor >= 100 && valor <200){
 		cout<<"Aplicado 10% de desconto, de: R$ "<<valor<<" sai por: R$ "<<(valor * 0.90)<<endl<<endl;
